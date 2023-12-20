@@ -1,2 +1,13 @@
-<p>soft-engineering works!</p>
-<router-outlet></router-outlet>
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/technology/softengineering/datatransformation" routerLinkActive="active-link" class="btn">Data
+            Transformation</a>
+        <a routerLink="/technology/softengineering/passport" routerLinkActive="active-link" class="btn">Passport</a>
+        <a routerLink="/technology/softengineering/issac" routerLinkActive="active-link" class="btn">ISSAC</a>
+        <a routerLink="/technology/softengineering/ecom" routerLinkActive="active-link" class="btn">Ecom</a>
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <router-outlet></router-outlet>
+</div>

@@ -1,1 +1,15 @@
-<p>passport works!</p>
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/technology/softengineering/passport/1" routerLinkActive="active-link" class="btn">Passport 1</a>
+        <a routerLink="/technology/softengineering/passport/2" routerLinkActive="active-link" class="btn">Passport 2</a>
+        <a routerLink="/technology/softengineering/passport/3" routerLinkActive="active-link" class="btn">Passport 3</a>
+
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <div class="text-7xl">
+        {{id}}
+    </div>
+    <router-outlet></router-outlet>
+</div>
