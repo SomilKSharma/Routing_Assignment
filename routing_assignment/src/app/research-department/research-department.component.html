@@ -1,2 +1,10 @@
-<p>research-department works!</p>
-<router-outlet></router-outlet>
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/researchdepartment/catalyst" routerLinkActive="active-link" class="btn">Catalyst</a>
+        <a routerLink="/researchdepartment/oneresearch" routerLinkActive="active-link" class="btn">One Research</a>
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <router-outlet></router-outlet>
+</div>

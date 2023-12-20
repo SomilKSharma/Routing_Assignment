@@ -1,2 +1,11 @@
-<p>business works!</p>
-<router-outlet></router-outlet>
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/business/marketing" routerLinkActive="active-link" class="btn">Marketing</a>
+        <a routerLink="/business/sales" routerLinkActive="active-link" class="btn">Sales</a>
+        <a routerLink="/business/accounts" routerLinkActive="active-link" class="btn">Accounts</a>
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <router-outlet></router-outlet>
+</div>

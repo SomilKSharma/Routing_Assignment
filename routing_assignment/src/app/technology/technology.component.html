@@ -1,2 +1,13 @@
-<p>technology works!</p>
-<router-outlet></router-outlet>
+<!-- technology.component.html -->
+
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/technology/softengineering" routerLinkActive="active-link" class="btn">Soft Engineering</a>
+        <a routerLink="/technology/publication" routerLinkActive="active-link" class="btn">Publication</a>
+        <a routerLink="/technology/cloudengineering" routerLinkActive="active-link" class="btn">Cloud Engineering</a>
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <router-outlet></router-outlet>
+</div>
