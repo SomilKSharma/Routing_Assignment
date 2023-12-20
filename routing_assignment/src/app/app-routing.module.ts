@@ -33,7 +33,9 @@ const routes: Routes = [
       {
         path: "softengineering", component: SoftEngineeringComponent, children: [
       {path:"datatransformation", component:DataTransformationComponent},
+      {path:"datatransformation/:id", component:DataTransformationComponent},
       {path:"passport", component:PassportComponent},
+      {path:"passport/:id", component:PassportComponent},
       {path:"issac", component:ISSACComponent},
       {path:"ecom", component:EcomComponent},
     ]},
