@@ -1,1 +1,11 @@
-<router-outlet></router-outlet>
+<div class="flex justify-center mt-8">
+    <nav class="space-x-4">
+        <a routerLink="/researchdepartment" routerLinkActive="active-link" class="btn">Research Department</a>
+        <a routerLink="/business" routerLinkActive="active-link" class="btn">Business</a>
+        <a routerLink="/technology" routerLinkActive="active-link" class="btn">Technology</a>
+    </nav>
+</div>
+
+<div class="mt-8 p-4 bg-gray-100">
+    <router-outlet></router-outlet>
+</div>
